@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.3s;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+  width: 500px;
+  border-top: 0px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    width: 100%;
+    border-top: 0px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+}
+
+#thong-bao {
+  padding: 8px;
+  color: #3b5998;
+  background: #fffbe2;
+  display: none;
+}
+
+#thong-bao a {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.banner img {
+  pointer-events: none;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  resize: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner img {
+    width: 100%;
+    border-radius: 0px;
+    resize: none;
+  }
+}
+
+.ngon-ngu {
+  padding: 8px;
+  color: #65676b;
+  text-align: center;
+}
+
+.ngon-ngu a {
+  color: #1763cf;
+  cursor: pointer;
+}
+
+.form {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.nhap-lieu input,
+.nhap-lieu button {
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 90%;
+  height: 28px;
+  padding: 6px;
+  display: block;
+  border: 0;
+}
+
+.nhap-lieu input {
+  border-bottom: 1px solid #a3a5a8;
+}
+.nhap-lieu input:focus {
+  outline: 0;
+  border-width: 3px;
+  border-color: #1877f2;
+}
+.nhap-lieu input:active {
+  background: rgb(240, 239, 239);
+}
+
+#login {
+  margin-top: 18px;
+  background: #1877f2;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.quen-pass {
+  text-align: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.quen-pass a {
+  cursor: pointer;
+  color: #1763cf;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hoac {
+  text-align: center;
+  color: #65676b;
+  margin: 28px 0px;
+}
+
+.tao-tai-khoan {
+  height: 28px;
+  padding: 6px;
+  border: 0;
+  display: block;
+  font-weight: bold;
+  color: white;
+  background: #31a24c;
+  margin: 0 auto;
+  border-radius: 6px;
+  cursor: pointer;
+}
